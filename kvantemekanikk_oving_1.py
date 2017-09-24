@@ -2,7 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import animation
 
-N = 5000 #antall punkter 
+N = 500 #antall punkter 
 hbar = 1
 L = 20
 res = 0.01
@@ -53,6 +53,9 @@ plt.plot(x,V/E, linewidth = 0.9)
 plt.grid()
 plt.show()
 
+def f():
+    return "Halla"
+print(f)
 """
 ##animering
 
